@@ -1,8 +1,18 @@
-# React + Vite
+# Fitness Club Discounts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
+Это приложение фитнес клуба, разработанное с использованием библиотеки React. Приложение предлагает пользователям возможность просматривать скидки на услуги клуба и возвращаться к первоначальным ценам после закрытия модального окна.
 
-Currently, two official plugins are available:
+## Технологии
+- **React** - для построения пользовательского интерфейса.
+- **Tailwind CSS** - для стилизации компонентов.
+- **SCSS** - для более сложной стилизации и управления стилями.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Функционал
+- **Скидки**: Пользователи могут видеть текущие скидки на услуги фитнес клуба.
+- **Модальное окно**: 
+  - Через 2 минуты после открытия страницы появляется модальное окно, показывающее окончательные скидки.
+  - При закрытии модального окна цены возвращаются к первоначальным значениям (без скидки).
+
+
+*информацию смотреть на ветке  master
