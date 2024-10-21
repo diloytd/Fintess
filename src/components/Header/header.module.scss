@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'PT-Root';
+    src: url('../assets/Fonts/PT-Root-UI_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+ @font-face {
+    font-family: 'BebasNeue';
+    src: url('../assets/Fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+
+   div{
+        font-family: 'PT-Root', sans-serif;
+        font-size: 30px;
+    }
+
+    p{
+        
+        font-family: 'BebasNeue', sans-serif;
+        font-size: 60px;
+    }
+
+    span{
+        font-size: 14px;
+        color: grey;
+    }
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('../assets/Fonts/Bebas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT-Root';
+    src: url('../assets/Fonts/PT-Root-UI_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT-Root-Medium';
+    src: url('../assets/Fonts/PT-Root-UI_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT-Root-Regular';
+    src: url('../assets/Fonts/PT-Root-UI_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../assets/Fonts/Rubik-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }

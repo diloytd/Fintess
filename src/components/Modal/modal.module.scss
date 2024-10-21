@@ -1,0 +1,109 @@
+.backWindow{
+    width: 100%;
+   height: 100%;
+    overflow: hidden;
+    position: fixed;
+   // z-index: 2100;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.backWindowClose{
+  display: none;
+}
+
+.modal{
+    width: 70%;
+    height: 500px;
+    padding-left: 42px;
+    padding-right: 42px;
+    width: 46rem;
+    height:auto;
+    background-color: #f5f7f7;
+    //background-color: F5F7F7;
+   
+    z-index: 100;
+   position: fixed;
+}
+.wrapCard{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.radio{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #eee; 
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .radio::before {
+    content: '';
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background: #01b9c4;
+    opacity: 0;
+    transition: opacity 0.3s; 
+    border: 1px solid #01b9c4
+  }
+  
+  .item:checked + .radio::before {
+    opacity: 1;
+  }
+
+  .card_oldPrice {
+    position: relative;
+    opacity: 70%;
+    font-size: 22px;
+  }
+  
+  .card_oldPrice::before,
+  .card_oldPrice::after {
+    content: "";
+    position: absolute;
+    width: 100%; 
+    height: 2px;
+    background-color: red;
+    top: 50%;
+    left: 0;
+    transform-origin: center;
+  }
+  
+  .card_oldPrice::before {
+    transform: rotate(-20deg);
+  }
+  
+  .card_oldPrice::after {
+    transform: rotate(20deg); 
+  }
+ 
+  .card_star{
+    background-image: url(../../../assets/Discount.png);
+    width: 3rem;
+    height: 3rem;
+    background-size: cover;
+    margin-top: -10%;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+  .not{
+    display: none;
+  }
